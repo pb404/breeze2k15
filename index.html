@@ -1,0 +1,2420 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Breeze 2015 | SNU</title>
+<link rel="shortcut icon" type="image/x-icon" href="images/favicon_india.ico" />
+<link rel="stylesheet" href="css/jpreloader.css" />
+<link href="css/style.css" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="css/gallery.css" />
+<link rel="stylesheet" type="text/css" href="css/buttons.css" />
+<link href='http://fonts.googleapis.com/css?family=Ubuntu' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" type="text/css" href="css/elastislide.css" />
+<link rel="stylesheet" type="text/css" href="css/style12.css" />
+
+<meta name="viewport" content="width=device-width, user-scalable=no">
+
+
+
+<meta name="description" content="SNU breeze Website Fest " />
+
+<!-- Schema.org markup for Google+ -->
+<meta itemprop="name" content="Shiv Nadar University Breeze 2015 ">
+<meta itemprop="description" content="SNU Breeze 2015 Website">
+
+<noscript>
+<style>
+.es-carousel ul {
+	display: block;
+}
+</style>
+</noscript>
+<script id="img-wrapper-tmpl" type="text/x-jquery-tmpl">
+			<div class="rg-image-wrapper">
+				{{if itemsCount > 1}}
+				<div class="slide_controls">
+        <div class="slide_btn slide_play"></div>
+
+        <div class="slide_next slide_btn rg-image-nav-next"></div>
+        <div class="slide_prev slide_btn rg-image-nav-prev"></div>
+      </div>
+
+
+				{{/if}}
+				<div style="position:relative">
+				<div class="rg-image"></div>
+				<div class="rg-loading"></div>
+				</div>
+				<div class="rg-caption-wrapper">
+					<div class="rg-caption" style="display:none;">
+						<h1></h1>
+						<p></p>
+						<div class="image_license"><a href="http://creativecommons.org/licenses/by/2.0/deed.en" target="_blank">Some rights reserved <span class="image_author_name"> </span>
+						</a>
+					</div>
+					</div>
+
+				</div>
+			</div>
+		</script>
+<link href='../fonts.googleapis.com/css55d0.css?family=Montserrat' rel='stylesheet' type='text/css'>
+<link href="../fonts.googleapis.com/css4b44.css?family=PT+Sans:400,700,400italic,700italic" media="screen" rel="stylesheet" type="text/css" />
+<script src="../code.jquery.com/jquery-latest.min.js"></script>
+<script src="js/jpreLoader.min.js"></script>
+<script type="text/javascript" src="js/script.js"></script>
+<script type="text/javascript" src="js/jquery.ba-viewportoffset.js"></script>
+<script src="js/timeline.js"></script>
+<script type="text/javascript"
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCg_FA7eXeHFUdVDu_DhL46OGXr-_psC8c&amp;sensor=true">
+    </script>
+<script type="text/javascript" src="js/jquery.tmpl.min.js"></script>
+<script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
+<script type="text/javascript" src="js/jquery.elastislide.js"></script>
+<!--<script type="text/javascript" src="js/gallery.js"></script>-->
+<script type="text/javascript" src="js/stellar.js"></script>
+<script type='text/javascript' src='js/jquery.scrollTo-min.js'></script>
+<script src='js/angular.js'></script>
+<script src='app.js'></script>
+
+<!--[if IE lt 11]>
+<script>
+$(document).ready(function() {
+
+$(".timeline").css({"z-index":1500});
+$(".header_banner").css({"z-index":1100});
+$("footer").css({"z-index":1500});
+$(".section-contact").css({"z-index":699 , "background-attachment": "inherit"});
+$(".header-12").css({"z-index":700});
+$(".lightbox_content .container").css({"padding-bottom":80});
+$(".plus_photo").hide();
+
+});
+
+</script>
+<![endif]-->
+
+
+<!-- HTML5 shim, for IE6-8 support of HTML5 elements. All other JS at the end of file. -->
+<!--[if lt IE 9]>
+      <script src="js/html5shiv.js"></script>
+    <![endif]-->
+<style>
+
+/* Common button styles */
+.button {
+	float: left;
+	min-width: 150px;
+	max-width: 250px;
+	display: block;
+	margin: 1em;
+	font-family: 'Ubuntu', sans-serif;
+	padding: 1em 2em;
+	border: none;
+	background: none;
+	color: inherit;
+	vertical-align: middle;
+	position: relative;
+	z-index: 1;
+}
+.lightbox_content{
+	background-color: #F9DBBD;
+	overflow-y: hidden; // hide vertical
+overflow-x: hidden; // hide horizontal
+
+}
+.button:focus {
+	outline: none;
+}
+
+.button > span {
+	vertical-align: middle;
+}
+
+/* Sizes */
+.button--size-s {
+	font-size: 14px;
+}
+
+.button--size-m {
+	font-size: 16px;
+}
+
+.button--size-l {
+	font-size: 18px;
+}
+
+/* Typography and Roundedness */
+.button--text-upper {
+	letter-spacing: 2px;
+	text-transform: uppercase;
+}
+
+.button--text-thin {
+	font-weight: 300;
+}
+
+.button--text-medium {
+	font-weight: 500;
+}
+
+.button--text-thick {
+	font-weight: 600;
+}
+
+.button--round-s {
+	border-radius: 5px;
+}
+
+.button--round-m {
+	border-radius: 15px;
+}
+
+.button--round-l {
+	border-radius: 40px;
+}
+
+/* Borders */
+.button--border-thin {
+	border: 1px solid;
+}
+
+.button--border-medium {
+	border: 2px solid;
+}
+
+.button--border-thick {
+	border: 3px solid;
+}
+/* Itzel */
+.button--itzel {
+	border: none;
+	padding: 0px;
+	overflow: hidden;
+	width: 255px;
+}
+
+.button--itzel::before {
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	border: 2px solid;
+	border-radius: inherit;
+	-webkit-clip-path: polygon(0% 0%, 0% 100%, 35% 100%, 35% 60%, 65% 60%, 65% 100%, 100% 100%, 100% 0%);
+	clip-path: url(../index.html#clipBox);
+	transform: translate3d(0, 100%, 0) translate3d(0, -2px, 0);
+	transform-origin: 50% 100%;
+}
+
+.button--itzel.button--border-thin::before {
+	border: 1px solid;
+	transform: translate3d(0, 100%, 0) translate3d(0, -1px, 0);
+}
+
+.button--itzel.button--border-thick::before {
+	border: 3px solid;
+	transform: translate3d(0, 100%, 0) translate3d(0, -3px, 0);
+}
+
+.button--itzel::before,
+.button--itzel .button__icon {
+	transition: transform 0.3s;
+	transition-timing-function: cubic-bezier(0.75, 0, 0.125, 1);
+}
+
+.button--itzel .button__icon {
+	position: absolute;
+	top: 100%;
+	left: 50%;
+	padding: 20px;
+	font-size: 20px;
+	transform: translate3d(-50%, 0, 0);
+}
+
+.button--itzel > span {
+	display: block;
+	padding: 20px;
+	transition: transform 0.3s, opacity 0.3s;
+	transition-delay: 0.3s;
+}
+
+.button--itzel:hover::before {
+	transform: translate3d(0, 0, 0);
+}
+
+.button--itzel:hover .button__icon {
+	transition-delay: 0.1s;
+	transform: translate3d(-50%, -100%, 0);
+}
+
+.button--itzel:hover > span {
+	opacity: 0;
+	transform: translate3d(0, -50%, 0);
+	transition-delay: 0s;
+}
+
+
+.pointer_info .pointer_extra
+{
+	color: #7d756d;
+text-transform: lowercase;
+margin-top: 10px;
+}
+.section-contact
+{
+	height:auto;
+	max-height:none;
+}
+.more_xp {
+width: 100%;
+margin-top: 880px;
+margin-bottom: 200px;
+}
+.xp_text {
+text-align: center;
+width: 100%;
+color: #313131;
+font-size: 22px;
+position: relative;
+}
+.xp_border {
+width: 270px;
+position: absolute;
+height: 44px;
+top: -8px;
+background: rgba(255,255,255,0.5);
+left: 50%;
+margin-left: -135px;
+}
+.xp_text span {
+position: relative;
+}
+.project_thumb {
+width: 100%;
+max-width: 410px;
+margin: 30px auto 30px auto;
+background: white;
+border: 1px solid black;
+cursor: pointer;
+}
+.project_thumb_image {
+width: -moz-calc(100% - 10px);
+width: -webkit-calc(100% - 10px);
+width: -o-calc(100% - 10px);
+width: calc(100% - 10px);
+margin: 5px;
+opacity: 1;
+background: black;
+}
+.project_thumb_image img
+{
+	width:100%;
+	-webkit-transition: all 0.3s ease;
+-moz-transition: all 0.3s ease;
+-o-transition: all 0.3s ease;
+-ms-transition: all 0.3s ease;
+transition: all 0.3s ease;
+}
+.project_thumb:hover img
+{
+	opacity:0.6;
+}
+.project_thumb_text {
+font-size: 20px;
+color: #313131;
+padding: 0 10px 10px 10px;
+}
+.project_thumb_text .tags {
+display: inline;
+color: #5c5c5c;
+font-size: 13px;
+}
+.contact_info ul li
+{
+	width:33.33%;
+}
+@media screen and (max-width: 450px)
+{.project_thumb {
+	width:90%;
+	margin-left:5%;
+}
+}
+</style>
+<script>
+
+$(document).ready(function(e) {
+    $(".more_xp").css({"margin-top": parseInt($(".contact_container").offset().top)- parseInt($(".section-contact").offset().top) +  parseInt($(".contact_container").height()) + 100});
+
+	$(".project_thumb").click(function(){
+
+	  window.open('http://www.75yearsofbatman.com/','_blank');
+
+		});
+});
+
+
+</script>
+
+
+</head><body>
+<div id=jSplash >
+    <div class="image_preload"><img src="images/load_bw.jpg" /><img src="images/load_color.jpg" /></div>
+    <div class="jSplash_container">
+        <div class="splash_text"></div>
+        <div class="splash_bw"></div>
+        <div class="splash_color"></div>
+    </div>
+</div>
+<section class="landing delhi_section">
+    <div class="logo"><img src="images/delhi.gif"  width="100%" /></div>
+    
+    <div class="dive_history">
+        <p></p>
+    </div>
+    <div class="landing_arrow"></div>
+</section>
+<nav class="navigation">
+    <h1 class="logo_main"><span class="logo_name"><img src="images/breeze.png"></span> <span class="logo_auth_name">| <img src="images/snu.png"></span></h1>
+    
+    <div class="share">
+        
+        <ul style="list-style-type: none;margin-top:6%; font-family:Ubuntu; padding:15px; ">
+        	<li style="display:inline; margin-right:20px"><a href="About/index3.html">About</a></li>
+        	<li style="display:inline;"><a href="About/index3.html#portfolio">Sponsors</a></li>
+        </ul>
+        
+
+        
+    </div>
+</nav>
+<section class="intro delhi_section">
+    <div class="intro_para">
+        <h2 style="color:white; font-size:30px; font-family:Ubuntu">"When the winds are in a mood for a celebration and blow with a flavor of festivity, then the opulence of this ceremony stands true to its name.  When a gust of gala galore embraces the campus of Shiv Nadar University and compels the clouds of caliber to thunder and shower tones of talent, then comes the time for a lovely three-day autumn merriment."</h2>
+        
+        <h2> Breeze on</h2>
+
+    </div>
+</section>
+<section class="header_banner header-1">
+    <div class="header_strip_1 header_strip"></div>
+    <div class="header_strip_2 header_strip"></div>
+    <div class="header_strip_3 header_strip"></div>
+    <div class="header_banner_name">Imprints<span class="header_year"></span></div>
+    <div class="header_explore"><span class="explore_icon"></span>check it out</div>
+</section>
+<section class="delhi_section section-1 section_rule" data-stellar-background-ratio="0.2">
+    <div class="plus_photo"></div>
+
+</section>
+<section class="header_banner header-2">
+    <div class="header_strip_1 header_strip"></div>
+    <div class="header_strip_2 header_strip"></div>
+    <div class="header_strip_3 header_strip"></div>
+    <div class="header_banner_name">Inferno <span class="header_year"></span></div>
+    <div class="header_explore"><span class="explore_icon"></span>check it out</div>
+</section>
+<section class="delhi_section section-2 section_rule" data-stellar-background-ratio="0.6">
+    <div class="plus_photo"></div>
+</section>
+<section class="header_banner header-3 ">
+    <div class="header_strip_1 header_strip"></div>
+    <div class="header_strip_2 header_strip"></div>
+    <div class="header_strip_3 header_strip"></div>
+    <div class="header_banner_name">MUN-SOC<span class="header_year"></span></div>
+    <div class="header_explore"><span class="explore_icon"></span>check it out</div>
+</section>
+<section class="delhi_section section-3 section_rule" data-stellar-background-ratio="0.2">
+    <div class="plus_photo"></div>
+</section>
+<section class="header_banner header-4 ">
+    <div class="header_strip_1 header_strip"></div>
+    <div class="header_strip_2 header_strip"></div>
+    <div class="header_strip_3 header_strip"></div>
+    <div class="header_banner_name">Snuphoria <span class="header_year"></span></div>
+    <div class="header_explore"><span class="explore_icon"></span>check it out</div>
+</section>
+<section class="delhi_section section-4 section_rule" data-stellar-background-ratio="0.6">
+    <div class="plus_photo"></div>
+</section>
+<section class="header_banner header-5">
+    <div class="header_strip_1 header_strip"></div>
+    <div class="header_strip_2 header_strip"></div>
+    <div class="header_strip_3 header_strip"></div>
+    <div class="header_banner_name">words.Ink <span class="header_year"></span></div>
+    <div class="header_explore"><span class="explore_icon"></span>check it out</div>
+</section>
+<section class="delhi_section section-5 section_rule" data-stellar-background-ratio="0.2">
+    <div class="plus_photo"></div>
+
+</section>
+<section class="header_banner header-6 ">
+    <div class="header_strip_1 header_strip"></div>
+    <div class="header_strip_2 header_strip"></div>
+    <div class="header_strip_3 header_strip"></div>
+    <div class="header_banner_name">CINEU<span class="header_year"></span></div>
+    <div class="header_explore"><span class="explore_icon"></span>check it out</div>
+</section>
+<section class="delhi_section section-6 section_rule" data-stellar-background-ratio="0.6">
+    <div class="plus_photo"></div>
+
+</section>
+<section class="header_banner header-7 ">
+    <div class="header_strip_1 header_strip"></div>
+    <div class="header_strip_2 header_strip"></div>
+    <div class="header_strip_3 header_strip"></div>
+    <div class="header_banner_name">Faction <span class="header_year"></span></div>
+    <div class="header_explore"><span class="explore_icon"></span>check it out</div>
+</section>
+<section class="delhi_section section-7 section_rule" data-stellar-background-ratio="0.6">
+    <div class="plus_photo"></div>
+
+</section>
+<section class="header_banner header-8 ">
+    <div class="header_strip_1 header_strip"></div>
+    <div class="header_strip_2 header_strip"></div>
+    <div class="header_strip_3 header_strip"></div>
+    <div class="header_banner_name">Kalakriti <span class="header_year"></span></div>
+    <div class="header_explore"><span class="explore_icon"></span>check it out</div>
+</section>
+<section class="delhi_section section-8 section_rule" data-stellar-background-ratio="0.6">
+    <div class="plus_photo"></div>
+
+</section>
+<section class="header_banner header-9 ">
+    <div class="header_strip_1 header_strip"></div>
+    <div class="header_strip_2 header_strip"></div>
+    <div class="header_strip_3 header_strip"></div>
+    <div class="header_banner_name">Orion-SNUCES <span class="header_year"></span></div>
+    <div class="header_explore"><span class="explore_icon"></span>check it out</div>
+</section>
+<section class="delhi_section section-9 section_rule" data-stellar-background-ratio="0.2">
+    <div class="plus_photo"></div>
+
+</section>
+<section class="header_banner header-10 ">
+    <div class="header_strip_1 header_strip"></div>
+    <div class="header_strip_2 header_strip"></div>
+    <div class="header_strip_3 header_strip"></div>
+    <div class="header_banner_name">Roboyantriki <span class="header_year"></span></div>
+    <div class="header_explore"><span class="explore_icon"></span>check it out</div>
+</section>
+<section class="delhi_section section-10 section_rule" data-stellar-background-ratio="0.6">
+    <div class="plus_photo"></div>
+
+</section>
+<section class="header_banner header-11 ">
+    <div class="header_strip_1 header_strip"></div>
+    <div class="header_strip_2 header_strip"></div>
+    <div class="header_strip_3 header_strip"></div>
+    <div class="header_banner_name">Economics Society <span class="header_year"></span></div>
+    <div class="header_explore"><span class="explore_icon"></span>check it out</div>
+</section>
+<section class="delhi_section section-11 section_rule" data-stellar-background-ratio="0.2">
+    <div class="plus_photo"></div>
+
+</section>
+
+<section class="header_banner header-12 ">
+    <div class="header_strip_1 header_strip"></div>
+    <div class="header_strip_2 header_strip"></div>
+    <div class="header_strip_3 header_strip"></div>
+    <div class="header_banner_name">Mechanical Society <span class="header_year"></span></div>
+    <div class="header_explore"><span class="explore_icon"></span>check it out</div>
+</section>
+<section class="delhi_section section-12 section_rule" data-stellar-background-ratio="0.2">
+    <div class="plus_photo"></div>
+
+</section>
+
+
+<section class="header_banner header-13 ">
+    <div class="header_strip_1 header_strip"></div>
+    <div class="header_strip_2 header_strip"></div>
+    <div class="header_strip_3 header_strip"></div>
+    <div class="header_banner_name">Sigree <span class="header_year"></span></div>
+    <div class="header_explore"><span class="explore_icon"></span>check it out</div>
+</section>
+<section class="delhi_section section-13 section_rule" data-stellar-background-ratio="0.2">
+    <div class="plus_photo"></div>
+
+</section>
+
+<section class="header_banner header-14 ">
+    <div class="header_strip_1 header_strip"></div>
+    <div class="header_strip_2 header_strip"></div>
+    <div class="header_strip_3 header_strip"></div>
+    <div class="header_banner_name">SNU-ACM Chapter<span class="header_year"></span></div>
+    <div class="header_explore"><span class="explore_icon"></span>check it out</div>
+</section>
+<section class="delhi_section section-14 section_rule" data-stellar-background-ratio="0.2">
+    <div class="plus_photo"></div>
+
+</section>
+
+<section class="header_banner header-15 ">
+    <div class="header_strip_1 header_strip"></div>
+    <div class="header_strip_2 header_strip"></div>
+    <div class="header_strip_3 header_strip"></div>
+    <div class="header_banner_name">IEEE SNU Chapter<span class="header_year"></span></div>
+    <div class="header_explore"><span class="explore_icon"></span>check it out</div>
+</section>
+<section class="delhi_section section-15 section_rule" data-stellar-background-ratio="0.2">
+    <div class="plus_photo"></div>
+
+</section>
+
+
+<section class="header_banner header-16 ">
+    <div class="header_strip_1 header_strip"></div>
+    <div class="header_strip_2 header_strip"></div>
+    <div class="header_strip_3 header_strip"></div><div class="header_banner_name">Rise with the ... <span class="header_year"></span></div>
+
+</section>
+
+<section class="delhi_section section-16 section-contact">
+
+	<svg viewBox="0 0 600 300">
+
+							<!-- Symbol -->
+							<symbol id="s-text">
+									<text text-anchor="middle" x="50%" y="50%" dy=".35em">
+											breeze
+									</text>
+							</symbol>
+
+							<!-- Duplicate symbols -->
+							<use xlink:href="#s-text" class="text"></use>
+							<use xlink:href="#s-text" class="text"></use>
+							<use xlink:href="#s-text" class="text"></use>
+							<use xlink:href="#s-text" class="text"></use>
+							<use xlink:href="#s-text" class="text"></use>
+
+					</svg>
+		<div class="contact_container">
+
+        </div>
+
+
+
+</section>
+<div class="nav_mobile">
+    <div class="nav_mobile_symbol"></div>
+    <ul>
+        <li>Imprints</li>
+        <li>Inferno</li>
+        <li>MUN-SOC</li>
+        <li>Snuphoria</li>
+        <li>words.Ink</li>
+        <li>CINEU</li>
+        <li>Faction</li>
+        <li>Kalakriti</li>
+        <li>Orion</li>
+        <li>Roboyantriki</li>
+        <li>Economics</li>
+				<li>Mechanical</li>
+				<li>Sigree</li>
+				<li>SNU ACM </li>
+				<li>IEEE SNU </li>
+    </ul>
+</div>
+<section class="timeline trans">
+    <div class="timeline_pointer">
+        <ul class="thumb_list">
+            <li>
+                <div class="pointer_thumb"><img src="images/tomaras/tomaras_thumb.jpg" width="92" height="86" /></div>
+                <div class="pointer_info">
+                    <h1>Imprints</h1>
+                    <p> </p>
+                    <p class="pointer_extra"> Check out events </p>
+                </div>
+            </li>
+            <li>
+                <div class="pointer_thumb"><img src="images/chauhans/chauhan_thumb.jpg" width="92" height="86" /></div>
+                <div class="pointer_info">
+                    <h1>Inferno</h1>
+                    <p>  </p>
+                   <p class="pointer_extra"> Check out events </p>
+                </div>
+            </li>
+            <li>
+                <div class="pointer_thumb"><img src="images/mamluks/mamluk_thumb.jpg" width="92" height="86" /></div>
+                <div class="pointer_info">
+                    <h1>MUN-SOC</h1>
+                    <p> </p>
+<p class="pointer_extra"> Check out events </p>
+                </div>
+            </li>
+            <li>
+                <div class="pointer_thumb"><img src="images/khilji/khilji_thumb.jpg" width="92" height="86" /></div>
+                <div class="pointer_info">
+                    <h1>Snuphoria</h1>
+                    <p>  </p>
+<p class="pointer_extra"> Check out events </p>
+                </div>
+            </li>
+            <li>
+                <div class="pointer_thumb"><img src="images/tughlaq/tughlaq_thumb.jpg" width="92" height="86" /></div>
+                <div class="pointer_info">
+                    <h1>words.Ink</h1>
+<p class="pointer_extra"> Check out events </p>
+                </div>
+            </li>
+            <li>
+                <div class="pointer_thumb"><img src="images/sayiadd/sayiadd_thumb.jpg" width="92" height="86" /></div>
+                <div class="pointer_info">
+                    <h1>CINEU</h1>
+                    <p class="pointer_extra"> Check out events </p>
+                </div>
+            </li>
+            <li>
+                <div class="pointer_thumb"><img src="images/lodi/lodi_thumb.jpg" width="92" height="86" /></div>
+                <div class="pointer_info">
+                    <h1>Faction</h1>
+                  <p class="pointer_extra"> Check out events </p>
+                </div>
+            </li>
+            <li>
+                <div class="pointer_thumb"><img src="images/mughal-1/mughal-1_thumb.jpg" width="92" height="86" /></div>
+                <div class="pointer_info">
+                    <h1>Kalakriti</h1>
+                  <p class="pointer_extra"> Check out events </p>
+                </div>
+            </li>
+            <li>
+                <div class="pointer_thumb"><img src="images/suri/suri_thumb.jpg" width="92" height="86" /></div>
+                <div class="pointer_info">
+                    <h1>ORION-SNUCES</h1>
+            <p class="pointer_extra"> Check out events </p>
+                </div>
+            </li>
+            <li>
+                <div class="pointer_thumb"><img src="images/mughal-2/mughal-2_thumb.jpg" width="92" height="86" /></div>
+                <div class="pointer_info">
+                    <h1>Roboyantriki</h1>
+                  <p class="pointer_extra"> Check out events </p>
+                </div>
+            </li>
+            <li>
+                <div class="pointer_thumb"><img src="images/british/british_thumb.jpg" width="92" height="86" /></div>
+                <div class="pointer_info">
+                    <h1>Economics Society</h1>
+                  <p class="pointer_extra"> Check out events </p>
+                </div>
+            </li>
+			<li>
+                <div class="pointer_thumb"><img src="images/c12/c12_thumb.jpg" width="92" height="86" /></div>
+                <div class="pointer_info">
+                    <h1>Mechanical Society</h1>
+                  <p class="pointer_extra"> Check out events </p>
+                </div>
+            </li>
+			<li>
+                <div class="pointer_thumb"><img src="images/c13/c13_thumb.jpg" width="92" height="86" /></div>
+                <div class="pointer_info">
+                    <h1>Sigree</h1>
+            <p class="pointer_extra"> Check out events </p>
+                </div>
+            </li>
+            <li>
+                <div class="pointer_thumb"><img src="images/c14/c14_thumb.jpg" width="92" height="86" /></div>
+                <div class="pointer_info">
+                    <h1>SNU ACM Chapter></h1>
+              <p class="pointer_extra"> Check out events </p>
+                </div>
+            </li>
+            <li>
+                <div class="pointer_thumb"><img src="images/c15/c15_thumb.jpg" width="92" height="86" /></div>
+                <div class="pointer_info">
+                    <h1>IEEE SNU Chapter</h1>
+                    <p class="pointer_extra"> Check out events </p>
+                </div>
+            </li>
+        </ul>
+        <div class="kink"></div>
+    </div>
+		<div class="timeline_scroll ">
+        <div class="timeline_scroll_overlay" style="width:10%"></div>
+    </div>
+
+    <div class="time_content">
+        <ul class="dynasty_bar">
+			<li>Imprints</li>
+	        <li>Inferno</li>
+	        <li>MUN-SOC</li>
+	        <li>Snuphoria</li>
+	        <li>words.Ink</li>
+	        <li>CINEU</li>
+	        <li>Faction</li>
+	        <li>Kalakriti</li>
+	        <li>Orion</li>
+	        <li>Robotics</li>
+	        <li>Eco</li>
+			<li>Mech</li>
+			<li>Sigree</li>
+			<li>SNU ACM</li>
+			<li>IEEE SNU</li>
+        </ul>
+        <ul class="timeline_bar">
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+			<li></li>
+			<li></li>
+			<li></li>
+			<li></li>
+			<li></li>
+        </ul>
+        <div class="bar_bar"></div>
+        <ul class="year_bar">
+          <!--  <li>2015</li>
+            <li>800 AD</li>
+            <li>900 AD</li>
+            <li>1000 AD</li>
+            <li>1100 AD</li>
+            <li>1200 AD</li>
+            <li>1300 AD</li>
+            <li>1400 AD</li>
+            <li>1500 AD</li>
+            <li>1600 AD</li>
+            <li>1700 AD</li>
+            <li>1800 AD</li>
+
+            <li class="next_last">1900 AD</li>
+            <li class="last">2000 AD</li>
+						!-->
+        </ul>
+    </div>
+</section>
+<footer class="trans">
+    <div class="footer_text"><a href="about/about.html">Made By</a></div>
+    <div class="footer_fb">
+
+		</div>
+</footer>
+<div class="disclaimer_window"><a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/deed.en_US"><img alt="Creative Commons License" style="border-width:0" src="images/88x31.png" /></a><br />Except where otherwise noted, content on this site is licensed under <span xmlns:dct="http://purl.org/dc/terms/" href="http://purl.org/dc/dcmitype/StillImage" rel="dct:type"></span>  a <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/deed.en_US" target="_blank">Creative Commons Attribution-NonCommercial 4.0 International License</a>.<div class="disclaimer_close">X</div></div>
+<div class="lightbox_bg"> </div>
+<div class="info_lightbox"> <a>
+    <div class="back_timeline">Back To Timeline <span class="close">X</span></div>
+    </a>
+    <div class="lightbox_content">
+
+        <!-- TOMARAS -->
+        <div class="info_cover">
+            <div class="info_cover_pic"><img src="images/tomaras/tomaras_cover.jpg"  /></div>
+            <div class="info_cover_text">
+                <div class="info_cover_captial"></div>
+                <div class="info_cover_captial_name">
+                    <h1>Imprints</h1>
+                </div>
+                <div class="info_cover_divide"></div>
+                <div class="info_cover_captial">Events</div>
+                <div class="info_cover_captial_ruler">
+                    <button class="button button--wayra button--border-thin button--round-s" id="b_c1_e1">Aagaz</button><br>
+                    <button class="button button--wayra button--border-thin button--round-s" id="b_c1_e2">The Dumb Show</button><br>
+					<button class="button button--wayra button--border-thin button--round-s" id="b_c1_e3">Dialoguebaazi</button><br>
+                </div>
+            </div>
+        </div>
+        <div class="info_history">
+            <div class="info_history_para" id="c1_e1">
+                <h2>Aagaz </h2>
+                 <div class="info_cover_divide"></div>
+								 <p>This is where acting becomes a reality. A streetplay event where the stage is yours to command, as the lights shine on you! A conglomeration of emotions, energy and passion. <br/> This is your chance to create an impact on the audience that leaves them contemplating for days to come. Cry, Act, Shout and send the message across about what you think are the root causes of all the major problems we face today, to strive for a better tomorrow. <br/>
+                                  Rules and Prizes The rules for the competition are as follows: Team size: 15 &ndash; 17 members. Prelims: The teams are required to send a short synopsis (100&shy;200 words) of the script of their play and mail the same to dramaticssociety@snu.edu.in with the subject as &ldquo;Aagaz: Script Name&rdquo;. IN CASE THE NUMBER OF TEAMS ARE MORE THAN THAT THE SOCIETY CAN MANAGE, TEAMS WILL BE SELECTED ON THE BASIS OF THEIR SCRIPT AND INFORMED ABOUT THE SAME.  Finals: Selected teams shall directly perform in REVELS once their script has undergone initial screening (based on synopsis).  <br/>Time Limit: 15 &shy;20 minutes. In case of violation of this, the team will be penalized 5% of total score for every minute.  Language of performance: Hindi or English or both.  The team size represents the number of people registered as a team. Only these people shall be allowed to perform the street play. It is mandatory to register your team beforehand. It can be done by sending the list of members to dramaticssociety@snu.edu.in  THEME: You may choose the theme as per your discretion but content directed against a certain political group or religious community is STRICLTY PROHIBITED. <br/> Obscenity (at the discretion of the judges) of any kind is not allowed and will lead to immediate disqualifications.  ONLY LIVE MUSIC IS ALLOWED and the musical instruments are expected to be brought by the participating teams themselves. No electrical appliances shall be allowed during the performance, whether inside or outside the circle of performance.  <br/>Teams are expected to perform at an open air venue with audience surrounding the team. <br/> For queries, please write to us at dramaticssociety@snu.edu.in or contact these members.<br/> Lalit Tiwari (+918130324506) <br/> Manu Agarwal (+918193868000) PRIZE MONEY: INR 15000 PRIZE MONEY: INR 15000</p>
+          </div>
+						<div class="info_history_para" id="c1_e2" >
+                <h2>The Dumb Show</h2>
+                 <div class="info_cover_divide"></div>
+          <p>Have you ever been fascinated by the subtle charm that is depicted by silent movies? Sheer acting skills and creativity dominate such movies, leaving us glued to the plot with anticipation and enthusiasm.  Well, this is your time to shine and break forth from conventional norms of acting that rely heavily on the dialogues. Entertain, enthral, seek tips from the master of silent acting &ndash; Charlie Chaplin, and get ready to act your heart out and capture the imagination of the audience. Music is permitted! Rules and Prizes</p>
+
+<p>1) Team size: Participate solo or in a group of 3&shy;5.  2) No props are allowed.  3) Face paints are allowed. The participants will have to arrange those on their own.  4) The team size represents the number of people registered as a team. Teams can register by sending the list of its members to dramaticssociety@snu.edu.in with the subject &ldquo;DumbShow&rdquo; OR by registering on our website  5) Obscenity (at the discretion of the judges) of any kind is not allowed and will lead to immediate disqualifications. Prize Money:</p>
+
+<p>Winner: INR 3000  Runner&shy;Up: INR 2000  Event Coordinators:  Gaurav (08130027727)</p>
+            </div>
+						<div class="info_history_para" id="c1_e3" >
+                <h2>Dialoguebaazi</h2>
+                 <div class="info_cover_divide"></div>
+              <p>Picture purani ab aapki zubaani!</p>
+
+<p>Ever wondered how a film scene could be completely transformed if its dialogues were tampered with?  At Dialoguebaazi, we give you the opportunity to do exactly that.  Each team will be shown a movie clip and given a preparation time. After that, the same movie clip will be played again but without any audio.  Now, the team members are supposed to fill in the dialogues and sound effects to carry forward the scene!  The teams would be judged on the basis of their creativity in interpreting the scene, dialogue delivery, timing etc.  Rules and Prizes</p>
+
+<p>Team size: 2&shy;4 members.  Preparation Time: One and a half minute (90 seconds).  Language of performance: Hindi or English or both.  The team size represents the number of people registered as a team. Teams can register by sending the list of its members to dramaticssociety@snu.edu.in with the subject OR by registering at our website. &ldquo;Dialoguebaazi&rdquo;.  Obscenity (at the discretion of the judges) of any kind is not allowed and will lead to immediate disqualifications.</p>
+            </div>
+        </div>
+
+        <!-- chauhans -->
+
+        <div class="info_cover">
+            <div class="info_cover_pic"><img src="images/chauhans/chauhans_cover.jpg"  /></div>
+						<div class="info_cover_text">
+								<div class="info_cover_captial">Club description</div>
+								<div class="info_cover_captial_name">
+										<h1>Inferno</h1>
+								</div>
+								<div class="info_cover_divide"></div>
+								<div class="info_cover_captial">Events</div>
+								<div class="info_cover_captial_ruler">
+										<button class="button button--wayra button--border-thin button--round-s" id="b_c2_e1">Singularity</button><br>
+										<button class="button button--wayra button--border-thin button--round-s" id="b_c2_e2">Twin Paradox-Dual Dance</button><br>
+										<button class="button button--wayra button--border-thin button--round-s" id="b_c2_e3">Time Warpers-Group Dance Event</button><br>
+								</div>
+						</div>
+				</div>
+				<div class="info_history">
+						<div class="info_history_para" id="c2_e1">
+								<h2>Singularity</h2>
+								<div class="info_cover_divide"></div>
+								<p><p>Match the altering song speeds, beat the mixing genres, and as the inevitable </p>
+
+<p>event horizon rises, all that you find yourself immersed in, is the Singularity Event.</p>
+
+<p>Mesmerize the audience with the grandeur of your grace, with your fuelling </p>
+
+<p>energy and groovy moves @ Inferno&rsquo;s Singularity event, a solo dance event where </p>
+
+<p>each and every participant gets a fulfilling chance to display his/her flair for </p>
+
+<p>dancing and skillfully performing. A single, incredible performance can win </p>
+
+<p>multiple hearts. Going solo is the new cool, yeah! </p>
+
+<p> Rules and Prizes</p>
+
+<p>First round- theme based prepared dance piece</p>
+
+<p>Duration of the dance piece:- 2-5min </p>
+
+<p>Second round-Style or genre exchange</p>
+
+<p> Duration of the performance 1-2min </p>
+
+<p> </p>
+
+<p>Final round- Taperecorder rewind or fast forward</p>
+
+<p> Duration of the performance 1-2min </p>
+
+<p>Rules coming soon&#8230;.</p>
+
+<p> </p>
+
+<p>Prizes:- </p>
+
+<p>1st-8000</p>
+
+<p>2nd-5000</p></p>
+						</div>
+						<div class="info_history_para" id="c2_e2" >
+								<h2>Twin Paradox-Dual Dance</h2>
+								<div class="info_cover_divide"></div>
+								<p><p>The Twin Paradox, where duo performers shall emboss the stage with</p>
+
+<p>harmonizing and enthralling performances. Do you and your partner portray an </p>
+
+<p>ideal dancing pair who can showcase some amazing moves and take the concept </p>
+
+<p>of duality to a wonderful level? If yes, then the stage is all yours. An Awesome, </p>
+
+<p>Two-some event! </p>
+
+<p>As Al hops, and Bert breaks in alternate dimensions, Asymmetry is the weapon to </p>
+
+<p>bring balance and harmony to this Twin Paradox Performance </p>
+
+<p>Rules and Prize Money</p>
+
+<p>One round which shall be a prepared theme-based dance piece</p>
+
+<p> Duration of the dance piece:- 2-5min</p>
+
+<p>Rules coming soon&#8230;</p>
+
+<p>1st Prize 5000</p></p>
+						</div>
+						<div class="info_history_para" id="c2_e3" >
+								<h2>Time Warpers-Group Dance Event</h2>
+								<div class="info_cover_divide"></div>
+								<p><p>Brace yourself for a breathtaking time travel! Be it Retro, Pop or HipHop, Just </p>
+
+<p>Jump into Auto piloted Table and get ready to be the Time Warpers!!</p>
+
+<p>Dancing in a group is always fun, but being the best outta the rest is the </p>
+
+<p>challenge&#8230;..</p>
+
+<p>Let your talent shimmer to the fullest with the glitters of glory.</p>
+
+<p>Rules and Prize Money</p>
+
+<p>One round-Duration of the dance piece:- 2-5min</p>
+
+<p>Prep Time:- 15-30 min (as per the song duration)</p>
+
+<p>Rules coming soon&#8230;.</p>
+
+<p>1st Prize 10000</p></p>
+						</div>
+				</div>
+
+        <!-- mamluk -->
+        <div class="info_cover">
+            <div class="info_cover_pic"><img src="images/mamluks/mamluk_cover.jpg"  /></div>
+						<div class="info_cover_text">
+                <div class="info_cover_captial_name">
+                    <h1>MUN-SOC</h1>
+                </div>
+                <div class="info_cover_divide"></div>
+                <div class="info_cover_captial">Events</div>
+                <div class="info_cover_captial_ruler">
+										<button class="button button--wayra button--border-thin button--round-s" id="b_c3_e1">MUN 2050</button>
+
+                </div>
+            </div>
+        </div>
+        <div class="info_history">
+            <div class="info_history_para" id="c3_e1">
+                <h2>MUN 2050</h2>
+                 <div class="info_cover_divide"></div>
+                <p><p>An MUN conference, happening in the year 2050 on the brink of world war 3. Member</p>
+
+<p>nations meet to discuss and debate a crisis situation to prevent another world war while</p>
+
+<p>following basic MUN procedure and etiquette. Any major changes in the world&rsquo;s</p>
+
+<p>demography, technology and International policies from 2015 to 2050 will be mentioned in</p>
+
+<p>advance along with the country allotments. In the event, member nations will first be</p>
+
+<p>presented with a crisis situation which will soon have updates as the event goes on. The</p>
+
+<p>winner(decided by organizers) will be the one who can not only speak and present well ,</p>
+
+<p>but also come up with the most diplomatic and realistic solutions.</p>
+
+<p>Rules and Prizes</p>
+
+<p>A brief explanation of all the rules and procedures will be given at the beginning of the</p>
+
+<p>event and all necessary material will be provided by the organizers.</p>
+
+<p>Prize money &shy; Rs 2500</p></p>
+            </div>
+
+        </div>
+
+        <!-- khilji -->
+
+        <div class="info_cover">
+            <div class="info_cover_pic"><img src="images/khilji/khilji_cover.jpg"  /></div>
+						<div class="info_cover_text">
+                <div class="info_cover_captial_name">
+                    <h1>SNUPHORIA</h1>
+                </div>
+                <div class="info_cover_divide"></div>
+                <div class="info_cover_captial">Events</div>
+                <div class="info_cover_captial_ruler">
+                    <button class="button button--wayra button--border-thin button--round-s" id="b_c4_e1">ARMONIA</button><br>
+                    <button class="button button--wayra button--border-thin button--round-s" id="b_c4_e2">CRESCENDO</button><br>
+					<button class="button button--wayra button--border-thin button--round-s" id="b_c4_e3">ACOUSTYX</button><br>
+                </div>
+            </div>
+        </div>
+        <div class="info_history">
+            <div class="info_history_para" id="c4_e1">
+                <h2>Armonia</h2>
+                 <div class="info_cover_divide"></div>
+								 <p>ARMONIA is a Solo Singing Competition for people with versatile voices to showcase their vocal </p>
+
+ <p>prowess.</p>
+
+ <p>Let the stage be solely yours, for this is a solo Singing event where you get an encouraging platform to </p>
+
+ <p>shine. If you believe your voice to have the cuckoo&rsquo;s charm in it, or a suffusion of mellow melody to it, or </p>
+
+ <p>the robust rhythm of a rock star, or the peppy magic of a pop star-or simply a marvelous mincing of the </p>
+
+ <p>above listed attributes, do make it to the stage and sing your hearts out @ the Solo Singing Competition </p>
+
+ <p>by SNUPHORIA, SNU&rsquo;s core, passionate Music Society. The best of the best singers shall get the honor of </p>
+
+ <p>receiving the most coveted title-but participating and giving a memorable performance is no less than </p>
+
+ <p>an admirable achievement in itself. </p>
+
+ <p> The competition will be held in two separate categories: Eastern and Western. There will be one winner </p>
+
+ <p>for each mentioned category. </p>
+
+ <p>Rules and Prizes</p>
+
+ <p>REGISTRATION</p>
+
+ <p> Pre-registration is required. Limited registrations will be done on the spot.</p>
+
+ <p> RULES </p>
+
+ <p>1. The time limit is 7 minutes including set up and sound check. To be adhered to under all conditions. </p>
+
+ <p>2. A keyboard and a 3-piece drum set will be provided. </p>
+
+ <p>3. Accompanists are allowed. One singer can have a maximum of 2 accompanists. </p>
+
+ <p>4. Obscenity (at the discretion of the judges) of any kind is not allowed and will lead to immediate </p>
+
+ <p>disqualification. </p>
+
+ <p>5. Judging for both Indian and Western categories will be done separately. </p>
+
+ <p>6. One institution can have a maximum number of 2 participants in each category, i.e. 2 in Western and </p>
+
+ <p>2 in Eastern. </p>
+
+ <p>7. The decision made by the judges shall be final and binding.</p>
+
+ <p> In case the number of registrations is more, there will be a Preliminary Round. The participants will </p>
+
+ <p>be informed about the same well in advance. The rules of the preliminary round are as follows:</p>
+
+ <p> 1. Participants will have a maximum of 3 minutes. Time limit should be strictly followed.</p>
+
+ <p> 2. No accompanists are allowed for this round. </p>
+
+ <p>3. Participants are however allowed to take the initial key of the song with any instrument of their </p>
+
+ <p>choice.</p>
+
+ <p> 4. Obscenity (at the discretion of the judges) of any kind is not allowed and will lead to immediate </p>
+
+ <p>disqualification. </p>
+
+ <p>5. The decision made by the judges shall be final and binding.</p>
+
+ <p> JUDGING CRITERIA </p>
+
+ <p>1. Tonal Quality </p>
+
+ <p>2. Rhythm &amp; Technique </p>
+
+ <p>3. Improvisation</p>
+
+ <p> 4. Dexterity</p>
+
+ <p> 5. Stage Presence </p>
+
+ <p>PRIZE MONEY: &#8377;4000 </p>
+
+ <p>Contact Us: Yash Singh +919811490877 Shriya Narayanan +919717324516</p>
+            </div>
+						<div class="info_history_para" id="c4_e2" >
+                <h2>CRESCENDO</h2>
+                 <div class="info_cover_divide"></div>
+                <p><p>A boisterous battle of bands to rock the stage entirely to glory..</p>
+
+<p>Sound-checks, head-bangs, some splendid strummin&rsquo; and some awesome music runnin&rsquo; and not to </p>
+
+<p>forget the excited crowd, swaying to the rhythm divine, coupled with a fabulous frenzy of endless </p>
+
+<p>cheering&#8230; </p>
+
+<p>CRESCENDO is a competition for the title of the &ldquo;Best Band&rdquo;. Usually rock/metal bands take the lead and </p>
+
+<p>make the crowd go crazy with their performances. However, there is no limitation on the type of music </p>
+
+<p>played. It is the most prestigious musical event of the festival.</p>
+
+<p>So folks, get ready for an amazing time and for all the bands who wish to participate-we can&rsquo;t wait to </p>
+
+<p>hear you! </p>
+
+<p>Rules and Prizes </p>
+
+<p>REGISTRATION Pre-registrations will be done. Bands will be shortlisted for the final event and will be </p>
+
+<p>informed well in advance. Each team will be required to provide an accessible video/audio link on any </p>
+
+<p>social media platform. The audio/video should be clear enough to make necessary judgment. </p>
+
+<p>Last date for pre-registration: TBA </p>
+
+<p>RULES</p>
+
+<p> 1. The selection of bands will be done at the sole discretion of The Music Society of Shiv Nadar </p>
+
+<p>University. </p>
+
+<p>2. There will be only ONE round. A total of 25 minutes will be provided to each band on stage. </p>
+
+<p>This includes sound check and any other delay by the team members. 5% of the total marks shall </p>
+
+<p>be deducted for every exceeded minute.</p>
+
+<p> 3. There will be no constraints on the language used. However, obscenity at the discretion of </p>
+
+<p>the judges shall lead to disqualification.</p>
+
+<p> 4. A drum kit will be provided. Participants are requested to get all other instruments they will </p>
+
+<p>be using for their performances.</p>
+
+<p> 5. Violation of any of the above rules shall lead to immediate disqualification.</p>
+
+<p> 6. The decision of the judges and the organisers regarding any issue shall be final and binding. </p>
+
+<p>JUDGEMENT CRITERIA </p>
+
+<p>1. Planning &amp; Preparedness </p>
+
+<p>2. Originality &amp; Improvisation </p>
+
+<p>3. Quality of Performance</p>
+
+<p> 4. Presentation &amp; Stage Presence</p>
+
+<p> 5. Audience Appeal </p>
+
+<p> PRIZE MONEY: &#8377; 30000</p>
+
+<p> Contact: Vasu Sharma +918130778185 Ayush Singh +919971361353</p></p>
+            </div>
+						<div class="info_history_para" id="c4_e3" >
+                <h2>ACOUSTYX</h2>
+                 <div class="info_cover_divide"></div>
+                <p>ACOUSTYX is an Acoustic Fusion music event. All music played is purely acoustic and has a blend of
+
+Indian and Western Music. The competition is centered around semi-professional musicians.
+
+Rules and Prize Money
+
+REGISTRATION Pre-registration is required.
+
+RULES
+
+1. A maximum of 2 groups are allowed from one college.
+
+2. A minimum of 4 and a maximum of 10 members per group.
+
+3. The event is strictly a fusion event i.e. a purely Indian or a purely Western piece should be avoided.
+
+Fusion meaning a fusion of both Indian and Western music.
+
+4. Please make note of the judgement criteria:
+
+1. Technique - Level of difficulty, Tonal quality, Vocal/Instrumental ability, Coordination.
+
+2. Improvisation - Innovation in the interpretation of works will be given extra credit
+
+3. Originality - Original Compositions will substantially carry higher weightage.
+
+4. Stage presence - Audience appeal.
+
+5. Overall Performance
+
+5: Time limit for the performance should not exceed 10 minutes. (An additional 5 Minutes will be
+
+provided for Stage Setup and Sound Check). 5% of the total marks will be deducted for every exceeded
+
+minute.
+
+6: Purely instrumental pieces are not allowed, although a purely Vocal Performance i.e. an Acapella is
+
+allowed.
+
+7. The decision of the organizers with respect to the line-up is final and binding.
+
+8. Obscenity (at the discretion of the judges) of any kind is not allowed and will lead to immediate
+
+disqualification.
+
+9. Inter College groups are allowed.
+
+10. One person from one institution cannot be a part of more than 2 groups of the same institution.
+
+Also, an institution can have a maximum of 2 teams for this event.
+
+11. Participants must perform more than 1 song i.e. either multiple individual songs or a medley of
+
+songs. Please keep in mind the rule about this being a Fusion Event.
+
+ 12. The decision of the judges shall be final and binding.
+
+PRIZE MONEY: ₹ 6000
+
+Contact Us: Kirthana S. +918130944374 Ayush Bhattacharya +919999400727</p>
+            </div>
+        </div>
+
+        <!-- Tughlaq -->
+        <div class="info_cover">
+            <div class="info_cover_pic"><img src="images/tughlaq/tughlaq_cover.jpg"  /></div>
+						<div class="info_cover_text">
+								<div class="info_cover_captial">Club description</div>
+								<div class="info_cover_captial_name">
+										<h1>Words.Ink</h1>
+								</div>
+								<div class="info_cover_divide"></div>
+								<div class="info_cover_captial">Events</div>
+								<div class="info_cover_captial_ruler">
+										<button class="button button--wayra button--border-thin button--round-s" id="b_c5_e1"><h1>Treasure Hunt</h1></button><br>
+										<button class="button button--wayra button--border-thin button--round-s" id="b_c5_e2"><h1>Debate</h1></button><br>
+										<button class="button button--wayra button--border-thin button--round-s" id="b_c5_e3"><h1>Creative Writing</h1></button><br>
+								</div>
+						</div>
+				</div>
+				<div class="info_history">
+						<div class="info_history_para" id="c5_e1">
+								<h2>Treasure Hunt</h2>
+								<div class="info_cover_divide"></div>
+								<p><p>words.Ink invites you to TimeQuest, a chance to immerse yourself in a uniquely</p>
+
+<p>engrossing experience as a time&shy;travelling treasure hunter. Racing across time and space</p>
+
+<p>to find what others have sought but never found, shall have your heart thumping in</p>
+
+<p>excitement as you solve clues to get to the final goal!</p>
+
+<p>Rules and Prizes</p>
+
+<p>Rules to be announced shortly.</p>
+
+<p>Prize Money: 4000INR</p></p>
+						</div>
+						<div class="info_history_para" id="c5_e2" >
+								<h2>Debate</h2>
+								<div class="info_cover_divide"></div>
+								<p><p>It&rsquo;s time for combating it out, not through bloodshed, but through sheer tete &ndash; a &ndash;</p>
+
+<p>tete with fellow Parliamentarians! So, brush up on those debating skills and</p>
+
+<p>prepare to battle it out, with quick wit and current affairs.</p>
+
+<p>The debate shall follow Asian Parliamentary rules and each team will consist of</p>
+
+<p>three members. A detailed rulebook will be made available to all the registered</p>
+
+<p>members. The event will follow a knockout structure, with the top two teams</p>
+
+<p>moving into the Grand Finale. The topic shall be based on the theme for Breeze</p>
+
+<p>2015, i.e. Time Machine.</p>
+
+<p>Rules and Prizes</p>
+
+<p>PDF format of the rulebook shall be sent to those who register.</p>
+
+<p>Prize Money: 5000INR</p></p>
+						</div>
+						<div class="info_history_para" id="c5_e3" >
+								<h2>Creative Writing</h2>
+								<div class="info_cover_divide"></div>
+								<p><p>Go on an epic time travelling odyssey to the realms of your imagination!</p>
+
+<p>Pick two characters from different timelines and put them in an entirely different setting to</p>
+
+<p>create a story that shall have us pondering about it long after the event. Wield the pen to</p>
+
+<p>whip up a saga that explores all facets of your creativity.</p>
+
+<p>Rules and Prizes</p>
+
+<p>Rules to be announced shortly.</p>
+
+<p>Prize Money: 1000INR</p></p>
+						</div>
+				</div>
+
+        <!-- sayiadd -->
+
+        <div class="info_cover">
+            <div class="info_cover_pic"><img src="images/sayiadd/sayyiad_cover.jpg"  /></div>
+						<div class="info_cover_text">
+								<div class="info_cover_captial_name">
+										<h1>CINE U</h1>
+								</div>
+								<div class="info_cover_divide"></div>
+								<div class="info_cover_captial">Events</div>
+								<div class="info_cover_captial_ruler">
+										<button class="button button--wayra button--border-thin button--round-s" id="b_c6_e1">Time Wreck</button><br>
+
+								</div>
+						</div>
+				</div>
+				<div class="info_history">
+						<div class="info_history_para" id="c6_e1">
+								<h2>Time Wreck</h2>
+								<div class="info_cover_divide"></div>
+								<p><p>The motive of this event is to convince the audience with your cinematic skills. The event will be</p>
+
+<p>based in a fictional situation where there will be X number of people in a situation where only one </p>
+
+<p>can survive. The situations and characters are subject to the theme of time travel. </p>
+
+<p> Rules:</p>
+
+<p>&#61623; The motive of the players/contestants will be to stay in their given characters and convince </p>
+
+<p>the audience of why they deserve to live over the other person/people. The one who </p>
+
+<p>convinces the judges progresses to the next round. </p>
+
+<p>&#61623; The format we would be following would be like that of knockout rounds. So the total </p>
+
+<p>number of people will be divided into two groups and further subdivided into pairs. The </p>
+
+<p>groups would be given two different scenarios. The pairs belonging to each group will be </p>
+
+<p>sent one by one into the scenario. There would be one winner from each pair who will be </p>
+
+<p>regrouped for round two with another winer of round one. This will go on till there are two </p>
+
+<p>winners from each group remaining. </p>
+
+<p>&#61623; The final showdown would be between the last four where the two different scenarios that </p>
+
+<p>were running side by side will be merged into one. The ultimate winner would emerge out of </p>
+
+<p>these four.</p>
+
+<p>(prize rs. 3000)</p></p>
+						</div>
+
+				</div>
+
+        <!-- lodi -->
+        <div class="info_cover">
+            <div class="info_cover_pic"><img src="images/lodi/lodi_cover.jpg"  /></div>
+						<div class="info_cover_text">
+                <div class="info_cover_captial_name">
+                    <h1>Faction</h1>
+                </div>
+                <div class="info_cover_divide"></div>
+                <div class="info_cover_captial">Events</div>
+                <div class="info_cover_captial_ruler">
+									<button class="button button--wayra button--border-thin button--round-s" id="b_c7_e1">Retro Quiz</button><br>
+									<button class="button button--wayra button--border-thin button--round-s" id="b_c7_e2">X-Factor Quiz</button><br>
+									<button class="button button--wayra button--border-thin button--round-s" id="b_c7_e3">Online Quiz </button><br>
+                </div>
+            </div>
+        </div>
+        <div class="info_history">
+            <div class="info_history_para" id="c7_e1">
+                <h2>Retro Quiz</h2>
+                 <div class="info_cover_divide"></div>
+                <p><p>Welcome to the future, or should we say the past? Well, Michael J Fox showed us on</p>
+
+<p>television how one can easily mess with the other. People don&rsquo;t forget easily.</p>
+
+<p>This isn&rsquo;t a murderous one&shy;liner but the truth! Hence, the lexicon added another word</p>
+
+<p>&lsquo;Retro&rsquo; and etched it in our minds. Here, we will try to stir your brains to see if you have</p>
+
+<p>any clue about the 80&rsquo;s and 90&rsquo;s. Yes, that&rsquo;s right. It is a quiz. Or should we rather call it</p>
+
+<p>enlightenment?</p>
+
+<p>From the various coups to CERN, MJ to Monica Lewinsky, AIDS to assassinations; is the</p>
+
+<p>foundation for our future the future? You may decide!</p><p>Rules and Prizes</p>
+
+<p>Rules are the following:</p>
+
+<p>Teams of two</p>
+
+<p>6 teams will qualify to the finals from all teams present during the preliminary round</p>
+
+<p>Remainder of the rules change according to each round and will be explained on the spot.</p>
+
+<p>Prize &ndash; Rs 30000</p></p>
+            </div>
+						<div class="info_history_para" id="c7_e2" >
+                <h2>The X­factor Quiz</h2>
+                 <div class="info_cover_divide"></div>
+                <p><p>This is the X&shy;factor event of FACTion. An X&shy;Factor in this case means a topic based on</p>
+
+<p>which you probably would not have seen an entire quiz ever before. In Breeze 2014, it was</p>
+
+<p>the Conspiracy Theories &amp; Urban Myths Quiz. This year&rsquo;s X&shy;Factor quiz will also have an</p>
+
+<p>intriguing topic which is sure to catch your breath amidst this hefty &lsquo;BREEZE&rsquo;.</p>
+
+<p>Rules and Prizes</p>
+
+<p>Rules are the following:</p>
+
+<p>Teams of two</p>
+
+<p>6 teams will qualify to the finals from all teams present during the preliminary round</p>
+
+<p>Remainder of the rules change according to each round and will be explained on the spot.</p>
+
+<p>Prize &ndash; Rs 30000</p></p>
+            </div>
+						<div class="info_history_para" id="c7_e3" >
+                <h2>Online Quiz</h2>
+                 <div class="info_cover_divide"></div>
+                <p><p>An online quiz will be conducted through the Facebook page of FACTion in the run&shy;up to</p>
+
+<p>Breeze. Trust us to come up with questions to which even Google can&rsquo;t give you answers.</p>
+
+<p>Stay tuned by liking our page: www.fb.com/FACTionquiz.</p></p>
+            </div>
+        </div>
+
+        <!-- mughal-1 -->
+
+        <div class="info_cover">
+            <div class="info_cover_pic"><img src="images/mughal-1/mughal-1_cover.jpg"  /></div>
+						<div class="info_cover_text">
+                <div class="info_cover_captial_name">
+                    <h1>Kalakriti</h1>
+                </div>
+                <div class="info_cover_divide"></div>
+                <div class="info_cover_captial">Events</div>
+                <div class="info_cover_captial_ruler">
+                    <button class="button button--wayra button--border-thin button--round-s" id="b_c8_e1">Play With Clay</button><br>
+                    <button class="button button--wayra button--border-thin button--round-s" id="b_c8_e2">Fashion Fiesta</button><br>
+					<button class="button button--wayra button--border-thin button--round-s" id="b_c8_e3">Filmistaan</button><br>
+                </div>
+            </div>
+        </div>
+        <div class="info_history">
+            <div class="info_history_para" id="c8_e1">
+                <h2>PLay With Clay</h2>
+                 <div class="info_cover_divide"></div>
+                <p><p>An enriching clay pottery workshop, organized by SNU&rsquo;s creative society, Kalakriti where you&rsquo;ll get a</p>
+
+<p>chance to indulge in some amazing sculpting and gain a lovely creative experience. </p>
+
+<p>Let&rsquo;s time travel to 3000 BC and use the Potter&rsquo;s wheel to play with </p>
+
+<p>clay!</p></p>
+            </div>
+						<div class="info_history_para" id="c8_e2" >
+                <h2>Fashion Fiesta</h2>
+                 <div class="info_cover_divide"></div>
+                <p><p>Flaunt your great fashion sense and design stylish outfits with the grand event of Fashion Show. </p>
+
+<p>Walk the ramp with poise and elegance to showcase the design and receive a thunderous </p>
+
+<p>applauding for your creativity and caliber. The shimmering lights will be on you, so let the creative </p>
+
+<p>juices flow and let the spirit of team work yield a glamorous night.</p></p>
+            </div>
+						<div class="info_history_para" id="c8_e3" >
+                <h2>Filmistaan</h2>
+                 <div class="info_cover_divide"></div>
+                <p>Details coming soon. Stay Tuned</p>
+            </div>
+        </div>
+
+        <!-- suri -->
+
+        <div class="info_cover">
+            <div class="info_cover_pic"><img src="images/suri/suri_cover.jpg"  /></div>
+						<div class="info_cover_text">
+                <div class="info_cover_captial_name">
+                    <h1>ORION-SNUCES</h1>
+                </div>
+                <div class="info_cover_divide"></div>
+                <div class="info_cover_captial">Events</div>
+                <div class="info_cover_captial_ruler">
+                    <button class="button button--wayra button--border-thin button--round-s" id="b_c9_e1">Cantilivo</button><br>
+                    <button class="button button--wayra button--border-thin button--round-s" id="b_c9_e2">Intelligence:CE Quiz</button><br>
+                </div>
+            </div>
+        </div>
+        <div class="info_history">
+            <div class="info_history_para" id="c9_e1">
+                <h2>Cantilivo</h2>
+                 <div class="info_cover_divide"></div>
+                <p><p>Ever dreamt of building a masterpiece structure? Ever wanted to showcase the real structural</p>
+
+<p>engineering skill in you? Here is your chance to prove your mettle as a successful engineer. Show the </p>
+
+<p>world, what a bunch of Popsicle sticks and glue can do! </p>
+
+<p>Come, be a part of this extraordinary competition where your skills shall let you shine.</p>
+
+<p>GROUP ENTRY: 2 Members per team</p>
+
+<p>TASK</p>
+
+<p>Design an L-shaped cantilever structure using popsicle sticks and adhesive that can sustain maximum </p>
+
+<p>load.</p>
+
+<p>SPECIFICATION</p>
+
+<p>1)The arena consists of a groove with dimension of 150 mm x 200 mm and a depth of 150 mm as shown </p>
+
+<p>in the figure below.</p>
+
+<p>2) It should be noted that the area of cross section of the structure should be same as that of the cross-</p>
+
+<p>section of the groove.</p>
+
+<p>3)The height (H) as shown in the figure should be 800 mm with an error of +/- 10 mm. (Penalty: </p>
+
+<p>Participants will be disqualified if this rule is violated.)</p>
+
+<p>4) Length of the structure (L) should be between 600 mm and 800 mm. (Penalty: Participants will be </p>
+
+<p>disqualified if this rule is violated.)</p>
+
+<p>5) The horizontal part of the structure from point B to C should be perfectly horizontal. (Penalty: 20 </p>
+
+<p>points for breaking this rule.)</p>
+
+<p>6) The vertical part of the structure from point A to B must be perfectly vertical. (Penalty: 20 points for </p>
+
+<p>breaking this rule.)</p>
+
+<p>7) There should be a separate slot provided at the end of the horizontal part i.e. between C and D so as </p>
+
+<p>To prevent the slipping of the load in case the horizontal part deflects. (Penalty: 25 points for not </p>
+
+<p>fulfilling this criterion.)</p>
+
+<p>8) The area of cross section for the vertical section i.e the length between points A and B must not vary </p>
+
+<p>and should be fixed as per the above constraints with an area of 200 mm x 150 mm. (Penalty 30 points </p>
+
+<p>for not fulfilling this criteria)</p>
+
+<p>9)The area of cross section for the horizontal section i.e the length between points B and E must not </p>
+
+<p>vary and should be fixed with an area of 150 mm x 150 mm. (Penalty 30 points for not fulfilling this </p>
+
+<p>criteria)</p>
+
+<p>MATERIAL</p>
+
+<p>Popsicle sticks, Fevicol and rubber bands.</p>
+
+<p>JUDGEMENT CRITERIA: </p>
+
+<p>The judging of the structure is based on 3 important criteria: Weight of the Structure (W), The Length of </p>
+
+<p>the horizontal part of the structure (L) and the Load carrying capacity of the structure</p>
+
+<p>1) If the structure carries 'x' load kg before failure, the corresponding team will be awarded 20x points.</p>
+
+<p>2) 100 points will be awarded to the team with the lowest dead weight (W), zero points to the team </p>
+
+<p>with the highest value of (W), and all others will be awarded points based on linear interpolation </p>
+
+<p>between these two extremes.</p>
+
+<p>3)100 points will be awarded to the team with the highest value of (L), zero points to the team with the </p>
+
+<p>lowest value of (L), and all others will be awarded points based on linear interpolation between these </p>
+
+<p>two extremes.</p>
+
+<p>4) If any of the above constraints are not met, point deductions (as mentioned) or disqualification may </p>
+
+<p>be imposed at the sole discretion of the organizers. </p>
+
+<p>5) Score of a team is the sum of the points based on these criteria minus penalty if any.</p>
+
+<p>Tutorial- http://www.wikihow.com/Build-a-Popsicle-Stick-Tower</p>
+
+<p>REGISTERATION: Both online and on-spot registration.</p></p>
+            </div>
+						<div class="info_history_para" id="c9_e2" >
+                <h2>Intelligence : CE Quiz</h2>
+                 <div class="info_cover_divide"></div>
+                <p><p>Do you think you know everything?! LOL!! Okay&#8230; Let&rsquo;s test it. A NON TECHNICAL QUIZ (students from all </p>
+
+<p>streams can participate) A team consisting of maximum two brains. </p>
+
+<p>Rules will be mentioned before each and every round. </p>
+
+<p>REGISTRATION: Both online and on-spot registration and open to all</p></p>
+            </div>
+
+        </div>
+
+        <!-- mughal-2 -->
+
+        <div class="info_cover">
+            <div class="info_cover_pic mughal_cover_pic"><img src="images/mughal-2/mughal-2_cover.jpg"  /></div>
+						<div class="info_cover_text">
+								<div class="info_cover_captial_name">
+										<h1>RoboYantriki</h1>
+								</div>
+								<div class="info_cover_divide"></div>
+								<div class="info_cover_captial">Events</div>
+								<div class="info_cover_captial_ruler">
+										<button class="button button--wayra button--border-thin button--round-s" id="b_c10_e1">Sands of Time</button><br>
+										<button class="button button--wayra button--border-thin button--round-s" id="b_c10_e2">Robo Combat</button><br>
+										<button class="button button--wayra button--border-thin button--round-s" id="b_c10_e3">Future Drive</button><br>
+								</div>
+						</div>
+				</div>
+				<div class="info_history">
+						<div class="info_history_para" id="c10_e1">
+								<h2>Sands of Time</h2>
+								<div class="info_cover_divide"></div>
+								<p>This event is solely based on endurance and the ability to wrap your mind around the</p>
+
+								<p>concept of time. Do you have what it takes to battle it out using your bots as your weapons?</p>
+
+								<p>Well, now&rsquo;s the time to prove your worth.</p>
+
+								<p>Rules and Prizes</p>
+
+								<p>The requirement to participate in this event is a balance bot with a platform. A cup will be</p>
+
+								<p>placed on one end of the platform and sand will be poured at a steady rate. Further the bot</p>
+
+								<p>will be placed inside a circular boundary. The bot to endure the longest wins.</p>
+
+								<p>Specifications :</p>
+
+								<p>Balance bot with two wheels.</p>
+
+								<p>Platform should be between 1.5 and 2.5 feet along the axis of balance and at most 1</p>
+
+								<p>foot in width.</p>
+
+								<p>Minimum wheel size: 15 CM diameter.</p>						</div>
+						<div class="info_history_para" id="c10_e2" >
+								<h2>Robo Combat</h2>
+								<div class="info_cover_divide"></div>
+								<p>Details coming soon.Stay Tuned</p>
+						</div>
+						<div class="info_history_para" id="c10_e3" >
+								<h2>Future Drive</h2>
+								<div class="info_cover_divide"></div>
+								<p>Details coming soon.Stay Tuned</p>
+						</div>
+				</div>
+
+        <!-- british  -->
+        <div class="info_cover">
+            <div class="info_cover_pic"><img src="images/british/british_cover.jpg"  /></div>
+						<div class="info_cover_text">
+                <div class="info_cover_captial_name">
+                    <h1>Economics Society</h1>
+                </div>
+                <div class="info_cover_divide"></div>
+                <div class="info_cover_captial">Events</div>
+                <div class="info_cover_captial_ruler">
+                    <button class="button button--wayra button--border-thin button--round-s" id="b_c11_e1">Casino Royale</button><br>
+                    <button class="button button--wayra button--border-thin button--round-s" id="b_c11_e2">This is Trading</button><br>
+					<button class="button button--wayra button--border-thin button--round-s" id="b_c11_e3">Stock Market</button><br>
+                </div>
+            </div>
+        </div>
+        <div class="info_history">
+            <div class="info_history_para" id="c11_e1">
+                <h2>Casino Royale</h2>
+                 <div class="info_cover_divide"></div>
+                <p><p>Application of Game Theory combined with Skill shall ensure that you take the trophy</p>
+
+<p>home, in this exciting yet simplified version of regular poker.</p>
+
+<p>Rules and Prizes</p>
+
+<p>The rules of the game are as follows:</p>
+
+<p>Two players share a deck composed of three cards: Jack, Queen, and King. The highest</p>
+
+<p>card wins. You each ante one. You each get a card. The third card remains unseen. There</p>
+
+<p>shall be one standard round of betting, with a maximum bet of one chip each, rendering the</p>
+
+<p>following choices: the first player can check or bet one. Player two can call, fold, check or</p>
+
+<p>raise one (as appropriate). If needed, player one can then call or fold (no re&shy;raising).</p>
+
+<p>This classic poker variation was published in the Theory of Games in 1950. And since then,</p>
+
+<p>this game has been solved, which means that there is an optimal strategy which will ensure</p>
+
+<p>victory. Since the players are not aware of this, their best chance at winning is to apply the</p>
+
+<p>concepts of game theory to try and solve the game so they can win.</p>
+
+<p>P.S. Since this is strictly based on skill and not luck, this is legally not gambling.</p></p>
+            </div>
+						<div class="info_history_para" id="c11_e2" >
+                <h2>This is Trading</h2>
+                 <div class="info_cover_divide"></div>
+                <p><p>This game allows participants to experience international trade through a scenario&shy;environment</p>
+
+<p>consisting of multiple trading sessions. Not only do you enjoy but also learn about GDP, the</p>
+
+<p>benefits of trade and the impact world events can have on trade</p>
+
+<p>outcomes.</p>
+
+<p>Rules and Prizes</p>
+
+<p>Participants are to register in teams of 2&shy;3 and will be allotted countries. They will then have to</p>
+
+<p>come prepared for the game with background knowledge of the country they represent. This is</p>
+
+<p>important as the different trading sessions will require them to react accordingly. Their objective is</p>
+
+<p>simple. The higher a country&rsquo;s GDP after each trading session, closer they are to winning.</p>
+
+<p>Prize Money &shy; Rs 4000/&shy;</p></p>
+            </div>
+						<div class="info_history_para" id="c11_e3" >
+                <h2>Stock Market</h2>
+                 <div class="info_cover_divide"></div>
+                <p><p>Welcome to the world of Bears and Bulls. Players have to maximize their investments by taking</p>
+
+<p>long or short positions on the given stocks. They will have access to private information and all the</p>
+
+<p>transactions going around in the market live on their screen in real time. Being a fast paced and</p>
+
+<p>adrenaline rush infusing game, players can experience the real market simulation without investing</p>
+
+<p>a penny and still emerging as winners to become Wolves of Wall Street.</p>
+
+<p>Rules and Prizes</p>
+
+<p>Participants are to register in teams of 2. The no of sessions and trading case and other intricate</p>
+
+<p>details will be given on the spot.</p>
+
+<p>Prize Money &shy; Rs 4500/&shy;</p></p>
+            </div>
+        </div>
+
+				    <div class="info_cover">
+            <div class="info_cover_pic"><img src="images/c12/c12_cover.jpg"  /></div>
+                        <div class="info_cover_text">
+                <div class="info_cover_captial_name">
+                    <h1>THE MECHANICAL SOCIETY</h1>
+                </div>
+                <div class="info_cover_divide"></div>
+                <div class="info_cover_captial">Events</div>
+                <div class="info_cover_captial_ruler">
+                    <button class="button button--wayra button--border-thin button--round-s" id="b_c12_e1">Design Smackdown</button><br>
+                    <button class="button button--wayra button--border-thin button--round-s" id="b_c12_e2">Assemble It</button><br>
+                    <button class="button button--wayra button--border-thin button--round-s" id="b_c12_e3">Robo Wars</button><br>
+                </div>
+            </div>
+        </div>
+        <div class="info_history">
+            <div class="info_history_para" id="c12_e1">
+                <h2>Design Smackdown</h2>
+                 <div class="info_cover_divide"></div>
+                <p><p>Design Smackdown</p>
+
+<p>This competition has been developed keeping in mind the theme of BREEZE 2015 i.e Time </p>
+
+<p>Machine. The interested participants will be given a problem statement about a particular </p>
+
+<p>issue plaguing the humanity right now or in the coming future. The students will have to </p>
+
+<p>develop futuristic solutions to this problem using Mechanical Designing softwares, namely </p>
+
+<p>Autocad, SolidWorks or Pro-E depending upon the requirement and competency level of the </p>
+
+<p>participants. The designs would be judged on the basis of their effectiveness, both in terms </p>
+
+<p>of tackling the problem and in terms of money, and also on grounds of how easy they are to </p>
+
+<p>implement.</p></p>
+            </div>
+                        <div class="info_history_para" id="c12_e2" >
+                <h2>Assemble It</h2>
+                 <div class="info_cover_divide"></div>
+                <p>For all budding engineers out there, it is a competition to test your real world knowledge.
+
+Participants will be provided with some mechanical component completely dis-assembled
+
+which they have to assemble back together in the least possible time. The competition would
+
+get difficult as it progresses, with the components becoming increasingly complex and
+
+difficult to handle. Gear up to personify your mechanical-engineering concepts and surpass
+
+the core obstacles in each level…</p>
+            </div>
+                        <div class="info_history_para" id="c12_e3" >
+                <h2>Robo Wars</h2>
+                 <div class="info_cover_divide"></div>
+                <p><p>With the increasing popularity of robotic combat sports such as RoboWars and Battle of Bots, many </p>
+
+<p>students desire to build a fighting robot of their own. If you are crazy enough and believe in your </p>
+
+<p>ideas, then you can build your own fighting machine following the guidelines for RoboWars, </p>
+
+<p>conducted by The Mechanical Society in collaboration with the Robotics Society, Shiv Nadar </p>
+
+<p>University.</p>
+
+<p>The basic aim of this competition is to&#160;design and construct a robot capable of fighting a one on one </p>
+
+<p>tournament.&#160;It is a game of style, control, damage and aggression in which the robots pit against </p>
+
+<p>each other in a deadly combat. These warriors shall duel for honor and loyalty in an arena of </p>
+
+<p>destruction with their pneumatic spikes, flipping tusks, angle grinders, hurling maces, hydraulic </p>
+
+<p>pincers and lots more.</p></p>
+            </div>
+        </div>
+
+
+            <div class="info_cover">
+            <div class="info_cover_pic"><img src="images/c13/c13_cover.jpg"  /></div>
+                        <div class="info_cover_text">
+                <div class="info_cover_captial_name">
+                    <h1>Sigree</h1>
+                </div>
+                <div class="info_cover_divide"></div>
+                <div class="info_cover_captial">Events</div>
+                <div class="info_cover_captial_ruler">
+                    <button class="button button--wayra button--border-thin button--round-s" id="b_c13_e1">Drink and Drive</button><br>
+                    <button class="button button--wayra button--border-thin button--round-s" id="b_c13_e2">Pumperfection</button><br>
+                </div>
+            </div>
+        </div>
+        <div class="info_history">
+            <div class="info_history_para" id="c13_e1">
+                <h2>Drink and Drive</h2>
+                 <div class="info_cover_divide"></div>
+                <p><p>Drinking cola has become a favourite past-time among college students. So why not add some fun to it?</p>
+
+<p>SIGREE, SNU&rsquo;s Culinary Club Presents...</p>
+
+<p>A fun-filled event centered on consuming non-alcoholic soft drinks(Drink) and some running(Drive). </p>
+
+<p>Looks easy, but it isn&rsquo;t&#8230;</p>
+
+<p>Participation shall be in groups of two.</p>
+
+<p>Rules and Prizes</p>
+
+<p>Colas would be kept on two sides of the mess/dining hall.</p>
+
+<p>Participants in teams of two have to consume soft drinks provided to them on the first side, then run to </p>
+
+<p>the other side and finish the remaining glasses of cola and reach the finish line while competing with </p>
+
+<p>other teams.</p>
+
+<p>P.S: You may encounter some twists during the event..! </p>
+
+<p>Prize: 2*500 INR food vouchers</p></p>
+            </div>
+                        <div class="info_history_para" id="c13_e2" >
+                <h2>Pumperfection</h2>
+                 <div class="info_cover_divide"></div>
+                <p><p>Do you possess some awesome artistry or a hidden talent that could be well incorporated in the field of </p>
+
+<p>3D art? If yes, then all of you have to do is take a pumpkin, lift the knife and chisel out your wildest </p>
+
+<p>creation on to the pumpkin, to make it stand perfect among others. From an ant to a monkey, a house </p>
+
+<p>to a zombie-you can even carve out your favourite movie star!</p>
+
+<p>Set your knack of creative carving into action, think of a great idea and engrave your PUMPERFECTION </p>
+
+<p>masterpiece in the hearts of all. </p>
+
+<p>Rules and Prizes</p>
+
+<p>1.Max number of teams allowed is 20.</p>
+
+<p>2.Two members per team.</p>
+
+<p>3.Max time limit given to a team - 1.5 hours</p>
+
+<p>Rules:</p>
+
+<p>1. Exactly 2 members are allowed for each team.</p>
+
+<p>2. Use of internet at the time of event is prohibited.</p>
+
+<p>3. Designing should be done only by the tools provided at the time of the event.</p>
+
+<p>4. Designing a 2D/3D art is up to each team.</p>
+
+<p>5. Interference in other teams work will lead to disqualification.</p>
+
+<p>5. Decision made by the Judges will be final and binding.</p>
+
+<p>Prize: 2* 500 INR food vouchers</p></p>
+            </div>
+
+        </div>
+
+       <div class="info_cover">
+            <div class="info_cover_pic"><img src="images/c14/c14_cover.jpg"  /></div>
+                        <div class="info_cover_text">
+                <div class="info_cover_captial_name">
+                    <h1>SNU ACM Chapter</h1>
+                </div>
+                <div class="info_cover_divide"></div>
+                <div class="info_cover_captial">Events</div>
+                <div class="info_cover_captial_ruler">
+                    <button class="button button--wayra button--border-thin button--round-s" id="b_c14_e1">Code Debugging</button><br>
+                    <button class="button button--wayra button--border-thin button--round-s" id="b_c14_e2">Coding Championship</button><br>
+                    <button class="button button--wayra button--border-thin button--round-s" id="b_c14_e3">Hackathon</button><br>
+                </div>
+            </div>
+        </div>
+        <div class="info_history">
+            <div class="info_history_para" id="c14_e1">
+                <h2>Code Debugging</h2>
+                 <div class="info_cover_divide"></div>
+                <p><p>Do you love code debugging or consider yourself to be an expert at fixing errors, nice and clean? </p>
+
+<p>Then surely participate in SNU ACM Chapter&rsquo;s Code Debugging event where Participants will be </p>
+
+<p>given an hour&rsquo;s time to debug an unformatted spaghetti code in Python,Java, C.&#160; They have to </p>
+
+<p>correct&#160;and reformat the program with zero errors in stipulated time.</p></p>
+            </div>
+                        <div class="info_history_para" id="c14_e2" >
+                <h2>Coding Championship</h2>
+                 <div class="info_cover_divide"></div>
+                <p><p>Are you a maestro in problem solving? Or just like to do it for fun, a mere passion maybe? </p>
+
+<p>Do you dream in code and sculpt your sweet dreams in an ocean of pure logic? Then </p>
+
+<p>participate in the Coding Championship!</p>
+
+<p>Wanna know more?</p>
+
+<p>The coding championship is a problem solving race. Participants will be given certain </p>
+
+<p>number of problems to solve using C, C++ or Java in a given time frame. Questions will be </p>
+
+<p>of varying difficulty, and hence will carry different points. The first one to finish all the </p>
+
+<p>questions wins. In case no one is able to finish all questions by then, then the one with the </p>
+
+<p>maximum score wins. Ties shall be handled by a tie breaker round. Questions may pertain to </p>
+
+<p>various fields of programming (algorithms, graphs, mathematical programming questions, </p>
+
+<p>etc).</p></p>
+            </div>
+                        <div class="info_history_para" id="c14_e3" >
+                <h2>Hackathon</h2>
+                 <div class="info_cover_divide"></div>
+                <p><p>Flaunt your app development skills!! Get ready for HACKATHON&#8230;.</p>
+
+<p>Rules:</p>
+
+<p>1. In a team of 2-3, build a web app or phone app during the night based on a theme </p>
+
+<p>( The event is expected to be for 2 hours ). We'll not consider the number of people </p>
+
+<p>in the team while judging, so smaller teams may have a disadvantage.</p>
+
+<p>2. We'll release the theme later.</p>
+
+<p>3. You have to show a working demo after 12 hours at the venue, based on which </p>
+
+<p>you'll be judged.&#160;The Judging points would be the idea , relevance to the theme , </p>
+
+<p>Effectiveness and Ease of use.</p>
+
+<p>You&rsquo;ll of course learn a lot during this event, as many&#160;teams do.&#160;</p>
+
+<p>4. Automated Tools for App Development like App Inventor and App Studio are not </p>
+
+<p>allowed.&#160;Using&#160;proper frameworks and SDKs is a strict rule.</p></p>
+            </div>
+        </div>
+
+
+            <div class="info_cover">
+            <div class="info_cover_pic"><img src="images/c15/c15_cover.jpg"  /></div>
+                        <div class="info_cover_text">
+                <div class="info_cover_captial_name">
+                    <h1>IEEE SNU Chapter</h1>
+                </div>
+                <div class="info_cover_divide"></div>
+                <div class="info_cover_captial">Events</div>
+                <div class="info_cover_captial_ruler">
+                    <button class="button button--wayra button--border-thin button--round-s" id="b_c15_e1">coming soon</button><br>
+                    <button class="button button--wayra button--border-thin button--round-s" id="b_c15_e2">coming soon</button><br>
+                    <button class="button button--wayra button--border-thin button--round-s" id="b_c15_e3">coming soon</button><br>
+                </div>
+            </div>
+        </div>
+        <div class="info_history">
+            <div class="info_history_para" id="c15_e1">
+                <h2>coming soon</h2>
+                 <div class="info_cover_divide"></div>
+                <p>Details coming soon. Stay Tuned</p>
+            </div>
+                        <div class="info_history_para" id="c15_e2" >
+                <h2>coming soon</h2>
+                 <div class="info_cover_divide"></div>
+								 <p>Details coming soon. Stay Tuned</p>
+            </div>
+                        <div class="info_history_para" id="c15_e3" >
+                <h2>coming soon</h2>
+                 <div class="info_cover_divide"></div>
+								 <p>Details coming soon. Stay Tuned</p>
+            </div>
+        </div>
+        <a>
+        <div class="back_timeline">back to timeline <span class="close">X</span></div>
+        </a> </div>
+</div>
+<script>
+<!-- jPreLoader script -->
+$(document).ready(function() {
+
+
+	window.scrollTo(0, 0);
+	$(".timeline").css({"height":0});
+
+	var timer;
+	 //PointerEventsPolyfill.initialize({});
+	//calling jPreLoader function with properties
+	$('body').jpreLoader({
+		splashID: "#jSplash",
+		splashFunction: function() {  //passing Splash Screen script to jPreLoader
+			$('#jSplash').children('section').not('.selected').hide();
+			$('#jSplash').hide().fadeIn(0);
+
+			timer = setInterval(function() {
+				//splashRotator();
+			}, 3000);
+		}
+	}, function() {	//jPreLoader callback function
+		clearInterval(timer);
+		$('footer').animate({"bottom":0}, 500);
+		$('header').animate({"top":0}, 800, function() {
+			$('#wrapper').fadeIn(1000);
+		});
+	});
+});
+<!-- End of jPreLoader script -->
+
+
+</script>
+<script>
+$(document).ready(function(){
+    // Hide div 2 by default
+		$('#c1_e2').hide();
+		$('#c1_e3').hide();
+    $('#b_c1_e2').click(function() {
+        $('#c1_e1').hide();
+				$('#c1_e3').hide();
+        $('#c1_e2').show();
+    });
+
+    $('#b_c1_e1').click(function(){
+        $('#c1_e2').hide();
+				$('#c1_e3').hide();
+        $('#c1_e1').show();
+    });
+
+		$('#b_c1_e3').click(function(){
+        $('#c1_e1').hide();
+				$('#c1_e2').hide();
+        $('#c1_e3').show();
+    });
+
+		$('#c2_e2').hide();
+		$('#c2_e3').hide();
+    $('#b_c2_e2').click(function() {
+        $('#c2_e1').hide();
+				$('#c2_e3').hide();
+        $('#c2_e2').show();
+    });
+
+    $('#b_c2_e1').click(function(){
+        $('#c2_e2').hide();
+				$('#c2_e3').hide();
+        $('#c2_e1').show();
+    });
+
+		$('#b_c2_e3').click(function(){
+        $('#c2_e1').hide();
+				$('#c2_e2').hide();
+        $('#c2_e3').show();
+    });
+
+		$('#c3_e2').hide();
+		$('#c3_e3').hide();
+    $('#b_c3_e2').click(function() {
+        $('#c3_e1').hide();
+				$('#c3_e3').hide();
+        $('#c3_e2').show();
+    });
+
+    $('#b_c3_e1').click(function(){
+        $('#c3_e2').hide();
+				$('#c3_e3').hide();
+        $('#c3_e1').show();
+    });
+
+		$('#b_c3_e3').click(function(){
+        $('#c3_e1').hide();
+				$('#c3_e2').hide();
+        $('#c3_e3').show();
+    });
+
+		$('#c4_e2').hide();
+		$('#c4_e3').hide();
+    $('#b_c4_e2').click(function() {
+        $('#c4_e1').hide();
+				$('#c4_e3').hide();
+        $('#c4_e2').show();
+    });
+
+    $('#b_c4_e1').click(function(){
+        $('#c4_e2').hide();
+				$('#c4_e3').hide();
+        $('#c4_e1').show();
+    });
+
+		$('#b_c4_e3').click(function(){
+        $('#c4_e1').hide();
+				$('#c4_e2').hide();
+        $('#c4_e3').show();
+    });
+
+		$('#c5_e2').hide();
+		$('#c5_e3').hide();
+    $('#b_c5_e2').click(function() {
+        $('#c5_e1').hide();
+				$('#c5_e3').hide();
+        $('#c5_e2').show();
+    });
+
+    $('#b_c5_e1').click(function(){
+        $('#c5_e2').hide();
+				$('#c5_e3').hide();
+        $('#c5_e1').show();
+    });
+
+		$('#b_c5_e3').click(function(){
+        $('#c5_e1').hide();
+				$('#c5_e2').hide();
+        $('#c5_e3').show();
+    });
+
+		$('#c6_e2').hide();
+		$('#c6_e3').hide();
+    $('#b_c6_e2').click(function() {
+        $('#c6_e1').hide();
+				$('#c6_e3').hide();
+        $('#c6_e2').show();
+    });
+
+    $('#b_c6_e1').click(function(){
+        $('#c6_e2').hide();
+				$('#c6_e3').hide();
+        $('#c6_e1').show();
+    });
+
+		$('#b_c6_e3').click(function(){
+        $('#c6_e1').hide();
+				$('#c6_e2').hide();
+        $('#c6_e3').show();
+    });
+
+		$('#c7_e2').hide();
+		$('#c7_e3').hide();
+    $('#b_c7_e2').click(function() {
+        $('#c7_e1').hide();
+				$('#c7_e3').hide();
+        $('#c7_e2').show();
+    });
+
+    $('#b_c7_e1').click(function(){
+        $('#c7_e2').hide();
+				$('#c7_e3').hide();
+        $('#c7_e1').show();
+    });
+
+		$('#b_c7_e3').click(function(){
+        $('#c7_e1').hide();
+				$('#c7_e2').hide();
+        $('#c7_e3').show();
+    });
+
+		$('#c8_e2').hide();
+		$('#c8_e3').hide();
+    $('#b_c8_e2').click(function() {
+        $('#c8_e1').hide();
+				$('#c8_e3').hide();
+        $('#c8_e2').show();
+    });
+
+    $('#b_c8_e1').click(function(){
+        $('#c8_e2').hide();
+				$('#c8_e3').hide();
+        $('#c8_e1').show();
+    });
+
+		$('#b_c8_e3').click(function(){
+        $('#c8_e1').hide();
+				$('#c8_e2').hide();
+        $('#c8_e3').show();
+    });
+
+		$('#c9_e2').hide();
+		$('#c9_e3').hide();
+    $('#b_c9_e2').click(function() {
+        $('#c9_e1').hide();
+				$('#c9_e3').hide();
+        $('#c9_e2').show();
+    });
+
+    $('#b_c9_e1').click(function(){
+        $('#c9_e2').hide();
+				$('#c9_e3').hide();
+        $('#c9_e1').show();
+    });
+
+		$('#b_c9_e3').click(function(){
+        $('#c9_e1').hide();
+				$('#c9_e2').hide();
+        $('#c9_e3').show();
+    });
+
+		$('#c10_e2').hide();
+		$('#c10_e3').hide();
+    $('#b_c10_e2').click(function() {
+        $('#c10_e1').hide();
+				$('#c10_e3').hide();
+        $('#c10_e2').show();
+    });
+
+    $('#b_c10_e1').click(function(){
+        $('#c10_e2').hide();
+				$('#c10_e3').hide();
+        $('#c10_e1').show();
+    });
+
+		$('#b_c10_e3').click(function(){
+        $('#c10_e1').hide();
+				$('#c10_e2').hide();
+        $('#c10_e3').show();
+    });
+
+		$('#c11_e2').hide();
+		$('#c11_e3').hide();
+    $('#b_c11_e2').click(function() {
+        $('#c11_e1').hide();
+				$('#c11_e3').hide();
+        $('#c11_e2').show();
+    });
+
+    $('#b_c11_e1').click(function(){
+        $('#c11_e2').hide();
+				$('#c11_e3').hide();
+        $('#c11_e1').show();
+    });
+
+		$('#b_c11_e3').click(function(){
+        $('#c11_e1').hide();
+				$('#c11_e2').hide();
+        $('#c11_e3').show();
+    });
+
+		$('#c12_e2').hide();
+		$('#c12_e3').hide();
+    $('#b_c12_e2').click(function() {
+        $('#c12_e1').hide();
+				$('#c12_e3').hide();
+        $('#c12_e2').show();
+    });
+
+    $('#b_c12_e1').click(function(){
+        $('#c12_e2').hide();
+				$('#c12_e3').hide();
+        $('#c12_e1').show();
+    });
+
+		$('#b_c12_e3').click(function(){
+        $('#c12_e1').hide();
+				$('#c12_e2').hide();
+        $('#c12_e3').show();
+    });
+
+        $('#c13_e2').hide();
+        $('#c13_e3').hide();
+    $('#b_c13_e2').click(function() {
+        $('#c13_e1').hide();
+                $('#c13_e3').hide();
+        $('#c13_e2').show();
+    });
+
+    $('#b_c13_e1').click(function(){
+        $('#c13_e2').hide();
+                $('#c13_e3').hide();
+        $('#c13_e1').show();
+    });
+
+        $('#b_c13_e3').click(function(){
+        $('#c13_e1').hide();
+                $('#c13_e2').hide();
+        $('#c13_e3').show();
+    });
+
+    $('#c14_e2').hide();
+        $('#c14_e3').hide();
+    $('#b_c14_e2').click(function() {
+        $('#c14_e1').hide();
+                $('#c14_e3').hide();
+        $('#c14_e2').show();
+    });
+
+    $('#b_c14_e1').click(function(){
+        $('#c14_e2').hide();
+                $('#c14_e3').hide();
+        $('#c14_e1').show();
+    });
+
+        $('#b_c14_e3').click(function(){
+        $('#c14_e1').hide();
+                $('#c14_e2').hide();
+        $('#c14_e3').show();
+    });
+
+
+        $('#c15_e2').hide();
+        $('#c15_e3').hide();
+    $('#b_c15_e2').click(function() {
+        $('#c15_e1').hide();
+                $('#c15_e3').hide();
+        $('#c15_e2').show();
+    });
+
+    $('#b_c1_e1').click(function(){
+        $('#c15_e2').hide();
+                $('#c15_e3').hide();
+        $('#c15_e1').show();
+    });
+
+        $('#b_c15_e3').click(function(){
+        $('#c15_e1').hide();
+                $('#c15_e2').hide();
+        $('#c15_e3').show();
+    });
+});</script>
+
+
+
+
+</body>
+</html>
