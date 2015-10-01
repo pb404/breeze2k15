@@ -152,7 +152,7 @@ $(document).ready(function() {
     var h = parseInt($(".landing").height());
     var p = [];
     var d = [];
-    var v = 16;
+    var v = 18;
     for (var m = 1; m <= v; m++) {
         p.push($(".header-" + m)[0].offsetTop);
         d.push(parseInt($(".section-" + m)[0].offsetTop - $(".header_banner").height()))
